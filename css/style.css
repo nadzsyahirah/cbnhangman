@@ -1,0 +1,68 @@
+/*  */
+body {
+    background-color: grey;
+    background: url('../image/hpbg(13).jpg') no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-shadow: 0 0 2px black, -1px -1px 2px black, 1px 0 2px black, 1px 1px 2px black;
+}
+
+.container { 
+    text-align: center;
+}
+
+/* Header / Title */
+
+header {
+    min-height: 40px;
+}
+
+#title-image {
+    width: 15%;
+    height: auto;
+    float: none;
+    padding-left: 0px; 
+}
+
+/* Game area */
+
+h1,h2,h3,
+h4,h5,h6 {
+    padding: 5px;
+    background-color: #AA5655;
+    opacity: 0.5;
+}
+
+#title-image, #youwin-image, #gameover-image{ 
+    display: block;
+    margin: 0 auto;
+}
+
+#youwin-image {
+    width: 50%;
+    height: auto;
+}
+
+#gameover-image {
+    width: 50%;
+    height: auto; 
+}
+
+#currentWord {
+    letter-spacing: 10px;
+}
+
+#pressKeyTryAgain, 
+#gameover-image, 
+#youwin-image { display: none;}
+.gameplay-column {
+    padding-top: 20px;
+    border: 1px solid grey;
+    text-align: center;
+    margin-top: 20px;
+    min-height: 500px;
+    background-color: rgba(255, 255, 255, .5);
+}
